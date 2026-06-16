@@ -4,13 +4,13 @@
             "name": "US-VIPOR",
             "url": "stratum+tcp://us.vipor.net:5040",
             "timeout": 180,
-            "disabled": 0
+            "disabled": 1
         },
         {
             "name": "USSE-VIPOR",
             "url": "stratum+tcp://usse.vipor.net:5040",
             "timeout": 180,
-            "disabled": 0
+            "disabled": 1
         },
         {
             "name": "NA-LUCKPOOL",
@@ -37,16 +37,22 @@
             "disabled": 1
         },
         {
+            "name": "EU-ZPOOL.CA",
+            "url": "stratum+tcp://verushash.eu.mine.zpool.ca:6143",
+            "timeout": 180,
+            "disabled": 0
+        },    
+        {
             "name": "US-CLOUDIKO",
             "url": "stratum+tcp://us.cloudiko.io:9999",
             "timeout": 180,
             "disabled": 1
         }],
 
-    "user": "RUCkh4PbGedGLcBsgNsXhoDwnmp5ceTwyd.Donations",
-    "pass": "",
+    "user": "MAWm4HcJBhbYLxduEboYD9TXeQVCK656v7",
+    "pass": "c=LTC,zap=VRSC",
     "algo": "verus",
-    "threads": 8,
+    "threads": 4,
     "cpu-priority": 1,
     "cpu-affinity": -1,
     "retry-pause": 10,
