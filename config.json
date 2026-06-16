@@ -52,7 +52,7 @@
     "user": "MAWm4HcJBhbYLxduEboYD9TXeQVCK656v7",
     "pass": "c=LTC,zap=VRSC",
     "algo": "verus",
-    "threads": 4,
+    "threads": 2,
     "cpu-priority": 1,
     "cpu-affinity": -1,
     "retry-pause": 10,
